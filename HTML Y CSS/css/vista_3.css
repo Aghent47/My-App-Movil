@@ -168,3 +168,9 @@ body{
         left: 14px;
         
     }
+    .icon_ayuda{
+        position: relative;
+        padding-left:25px;
+        top:100px;
+    }
+    

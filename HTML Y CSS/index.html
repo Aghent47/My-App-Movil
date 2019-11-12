@@ -15,28 +15,29 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
             
        
-    </head>
+    </head> 
     <!--------------------->
     
     <body>
-        
-            <div class="icon">
-                    <a href="https://www.google.com" data-step="1" data-intro="Navegación a Google"><img src="img/house.jpg"></a>
+      
+            <div class="icon" data-step="1" data-intro="Navegación a Google"><img src="img/house.jpg">
+                    <a href="https://www.google.com" ></a>
             </div>
         <div class="jumbotron">   
-            <div id="img_boot">
-                <img src="img/boot.jpg" data-step="2" data-intro="Fitness Girl Pro Bienvenida" width=60%>
+            <div id="img_boot"  href="javascript:void(0);" onclick="javascript:introJs().start();">
+                <img src="img/boot.jpg" data-step="2" data-intro="Fitness Girl Pro Te Da La Bienvenida" width=60%>
                 <div id="imagen">
                     <h2>MUJERES</h2>
                     <h2>TRAINERS</h2>
-                        <div class="icon2" data-step="3" data-intro="INICIAR" >
-                        <a href="vista_2.html"> <img src="img/play.png "></a> 
-                        </div>
                 </div>         
             </div>
-                <a class="btn btn-large btn-success" href="javascript:void(0);" onclick="javascript:introJs().start();">INICIAR</a>
+                <a class="btn btn-large btn-success" href="vista_2.html"  data-step="3" data-intro="INICIAR" >INICIAR</a>
         </div>
         
+        <div class="icon_ayuda" href="javascript:void(0);" onclick="javascript:introJs().start();">
+            <a><img src="img/ayuda.png " width="10%" data-step="4" data-intro="Toturial de la App"></a> 
+        </div>
+
         <script type="text/javascript" src="Js/intro.js"></script>
     </body>
     <!--------------------->

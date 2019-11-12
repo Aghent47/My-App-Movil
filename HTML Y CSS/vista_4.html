@@ -7,35 +7,46 @@
         <title>MakeUp Color</title>
         <link rel="stylesheet" href="css/fontello.css">
         <link rel="stylesheet" href="css/vista_4.css">
+
+        <link rel="stylesheet" href="css/introjs-rtl.css">
+        <link rel="stylesheet" href="css/introjs.css">
+        <link rel="stylesheet" href="css/hint.css"> 
+
     </head>
     <body>
 
             <div class="icon3">
                     <a href="vista_3.html">
-                        <img src="img/atras.png" width=120%>
+                        <img src="img/atras.png" width=120% data-step="1" data-intro="Página Anterior">
                     </a> 
             </div>
 
         <div id="contenedor">
-            <div id="header">              
+            <div id="header" href="javascript:void(0);" onclick="javascript:introJs().start();">              
                 <h1 id="titulo">EJERCICIOS</h1>              
             </div>
             
-            <div id="contenido">
+            <div id="contenido" data-step="3" data-intro="Panel De Opciones">
                 <div id="iconn">
-                    <a href="vista_5.html"><img src="img/NEXT.png" width=10%><p>RUTINAS CARDIOVASCULARES</p></a> 
+                    <a href="vista_5.html"><img src="img/NEXT.png" width=10% data-step="4" data-intro="Opcion 1 "><p>RUTINAS CARDIOVASCULARES</p></a> 
                 </div>
                 <div id="iconn">
-                        <a href="vista_6.html"><img src="img/NEXT.png" width=10%><p>TONIFICAR GLÚTEOS</p></a> 
+                        <a href="vista_6.html"><img src="img/NEXT.png" width=10% data-step="5" data-intro="Opcion 2"><p>TONIFICAR GLÚTEOS</p></a> 
                 </div>   
                 <div id="iconn">
-                        <a href="vista_7.html"><img src="img/NEXT.png" width=10%><p>RUTINAS CON PESAS</p></a> 
+                        <a href="vista_7.html"><img src="img/NEXT.png" width=10% data-step="6" data-intro="Opcion 3 "><p>RUTINAS CON PESAS</p></a> 
                 </div>
                 <div id="iconn">
-                        <a href="buscar.html"><img src="img/NEXT.png" width=10%><p>OTROS</p></a> 
+                        <a href="buscar.html"><img src="img/NEXT.png" width=10% data-step="7" data-intro="Opcion 4"><p>OTROS</p></a> 
                 </div>
                
             </div>
+
+            <div class="icon_ayuda" href="javascript:void(0);" onclick="javascript:introJs().start();">
+                    <a><img src="img/ayuda.png " width="10%" data-step="2" data-intro="Toturial de la App"></a> 
+            </div>
         </div>
+        <script type="text/javascript" src="Js/intro.js"></script>
+
     </body>
 </html>

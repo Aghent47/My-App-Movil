@@ -7,27 +7,37 @@
         <title>Informacion_App</title>
         <link rel="stylesheet" href="css/fontello.css">
         <link rel="stylesheet" href="css/vista_2.css">
+        <link rel="stylesheet" href="css/introjs-rtl.css">
+        <link rel="stylesheet" href="css/introjs.css">
+        <link rel="stylesheet" href="css/hint.css"> 
+        <link rel="stylesheet" href="css/demo.css"> 
+        <link rel="stylesheet" href="css/bootstrap.min.css">
     </head>
     <body>
-        
-            <div class="icon3">
-                    <a href="index.html">
-                        <img src="img/atras.png" width=120%>
+            <div class="icon3"  data-step="1" data-intro="Página Anterior">
+                    <a href="index.html"><img src="img/atras.png" width=110%>
                     </a> 
             </div>
-        <main>
-            <section>
-            <img src="img/ICONO.jpg">
-            <div class="tex">
+        <main >
+            <section  >
+            <img src="img/ICONO.jpg" href="javascript:void(0);" onclick="javascript:introJs().start();">
+            <div class="tex" >
                 <p>Series De Entrenamientos</p>
                 <p>y Diestas Para Un Cuerpo</p>
                 <p>	 Saludable</p>
             </div>
-            <div class="icon2">
-                <a href="vista_3.html"><img src="img/play.png"></a>
+            <div class="icon2" >
+                <a href="vista_3.html"><img src="img/play.png" data-step="2" data-intro="Página Siguiente"  ></a>
             </div>
             </section>
+            <div class="icon_ayuda" href="javascript:void(0);" onclick="javascript:introJs().start();">
+                    <a><img src="img/ayuda.png " width="10%" data-step="3" data-intro="Toturial de la App"></a> 
+            </div>
+    
         </main>
+
+       
+        <script type="text/javascript" src="Js/intro.js"></script>
     </body>
 </html>
 

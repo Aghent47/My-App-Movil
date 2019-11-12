@@ -48,12 +48,18 @@ section img{
 	float: right;
     bottom:10px;
     right: 0px;
-    width: 100px;
+    width: 100px;   
     
 }
 .icon3{
-	width: 42px;
+
 	position: absolute;
-	left:30px;
-	padding-top: 20px;
+	left:20px;
+	padding-top:5px;
 }
+.icon_ayuda{
+    position: relative;
+    padding-left:10px;
+    top:570px;
+}
+

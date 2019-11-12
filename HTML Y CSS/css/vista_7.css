@@ -125,3 +125,9 @@ p{
     display: inline-block;
     color: #004a99;
 }
+.icon_ayuda{
+    position: relative;
+    padding-left:25px;
+    top:-40px;
+}
+

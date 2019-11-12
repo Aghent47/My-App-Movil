@@ -45,7 +45,7 @@ body{
  
     background: transparent;
     position: relative;
-    margin: 25% 2.5% 0% 2.5%;
+    margin: 25% 6% 0% 6%;
     height: 30%;
     background: #E3E0DF;
     padding: 0;
@@ -141,3 +141,9 @@ input[type=text] {
     border: 1.7px solid #2473c9;
     border-radius: 15px;
   }
+  
+.icon_ayuda{
+    position: relative;
+    padding-left:25px;
+    top:-55px;   
+}

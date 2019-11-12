@@ -45,7 +45,7 @@ body{
  
     background: transparent;
     position: relative;
-    margin: 25% 2.5% 0% 2.5%;
+    margin: 25% 5% 0% 5%;
     height: 60%;
     background: #E3E0DF;
     padding: 0;
@@ -125,4 +125,11 @@ p{
 	position: absolute;
 	text-align: right;
 
+}
+
+.icon_ayuda{
+    position: relative;
+    padding-left:25px;
+    top:30px;
+    
 }

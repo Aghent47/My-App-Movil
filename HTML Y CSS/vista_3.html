@@ -7,10 +7,17 @@
         <title>Pruebas HTML</title>
         <link rel="stylesheet" href="css/fontello.css">
         <link rel="stylesheet" href="css/vista_3.css">
+
+        <link rel="stylesheet" href="css/introjs-rtl.css">
+        <link rel="stylesheet" href="css/introjs.css">
+        <link rel="stylesheet" href="css/hint.css"> 
+     
+      
+
     </head>
     <body>
         <div id="contenedor">
-            <div id="header">
+            <div id="header" href="javascript:void(0);" onclick="javascript:introJs().start();">
                 <h1 id="titulo">Mejora Tu Condición Física/ EMujer</h1>          
             </div>
 
@@ -18,25 +25,26 @@
              
             <div class="icon3">
                 <a href="vista_2.html">
-                    
-                    <img src="img/atras.png" width=120%>
+                    <img src="img/atras.png" width=120% data-step="1" data-intro="Página Anterior">
                 </a> 
             </div>
             
-            <div id="contenido">
-                <p id="parrafo">
+            <div id="contenido"data-step="4" data-intro="INFORMACION">
+                <p id="parrafo" >
                     INICIAR ENTRENAMIENTOS
                 </p>
             
                     <div class="icon2">
                         <a href="vista_4.html">
-                            <img src="img/NEXT.png" width=140%>
+                            <img src="img/NEXT.png" width=140% data-step="3" data-intro="Siguiente Página">
                         </a> 
                     </div>
             </div>
-
-           
-           
+            <div class="icon_ayuda" href="javascript:void(0);" onclick="javascript:introJs().start();">
+                    <a><img src="img/ayuda.png " width="10%" data-step="2" data-intro="Toturial de la App"></a> 
+            </div>
         </div>
+        <script type="text/javascript" src="Js/intro.js"></script>
+
     </body>
 </html>
